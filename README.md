@@ -1,0 +1,1 @@
+Assignment - Property and Event Binding practice using Angular
