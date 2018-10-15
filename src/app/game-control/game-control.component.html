@@ -1,0 +1,9 @@
+<h1>Game-Control</h1>
+
+<p>{{count}}</p>
+
+<button class="btn btn-primary" (click)="startTimer()">Start</button>
+<button class="btn btn-danger" (click)="stopTimer()">Stop</button>
+
+<app-even *ngIf="isEven"></app-even>
+<app-odd *ngIf="!isEven"></app-odd>
