@@ -6,4 +6,15 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
+  oddNumbers: number[] = [];
+  evenNumbers: number[] = [];
+  
+  onTimerEvent(count: number){
+    if (count % 2 === 0){
+      this.evenNumbers.push(count);
+    }
+    else{
+      this.oddNumbers.push(count);
+    }
+  }
 }
